@@ -1,8 +1,6 @@
 
 ## Zithara Assessment
 
-This repository showcases the solution to the assignment given by the company named Zithara as part of the hiring process.
-
 **Task Description:**
 1. Create 50 records in database with the following column fields “sno, customer name, age, phone, location, created_at” and dummy data
 2. Create a single page application to display the above data in table format with search option, and pagination with 20 records per page.
