@@ -48,7 +48,7 @@ function Data() {
 
   useEffect(() => {
     function fetchData() {
-      let curData = filteredData;
+      let curData = userData;
   
       const searchResult = curData.filter((item) =>
         item.username.toLowerCase().includes(searchValue.toLowerCase()) ||
