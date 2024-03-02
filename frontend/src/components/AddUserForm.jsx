@@ -20,7 +20,7 @@ function AddUserForm({ setAddingUser, setUserData, setAddedUser}) {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/addUser', newUserDetails);
+      const response = await axios.post('https://zitharatask-backend-customer-data.onrender.com/addUser', newUserDetails);
       const newUserData = response.data.newUserData;
 
       const newFormattedData = {

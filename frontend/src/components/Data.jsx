@@ -6,6 +6,7 @@ import Table from './Table';
 import Pagination from './Pagination';
 import AddUserForm from './AddUserForm';
 import '../App.css'
+
 function Data() {
   const [userData, setUserData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -25,7 +26,7 @@ function Data() {
   useEffect(() => {
     async function fetchData(){
       try {
-        const response = await axios.get(`http://localhost:3000/getUserData`);
+        const response = await axios.get(`https://zitharatask-backend-customer-data.onrender.com/getUserData`);
         // console.log("Init : "+typeof(response.data))
         // console.log(response.data)
         const formattedData = response.data.map(item => ({
@@ -47,7 +48,7 @@ function Data() {
 
   useEffect(() => {
     function fetchData() {
-      let curData = userData;
+      let curData = filteredData;
   
       const searchResult = curData.filter((item) =>
         item.username.toLowerCase().includes(searchValue.toLowerCase()) ||
