@@ -1,5 +1,7 @@
 
 ## Zithara Assessment
+**Deployed Project Link** :  
+https://customer-data-management.vercel.app
 
 **Task Description:**
 1. Create 50 records in database with the following column fields “sno, customer name, age, phone, location, created_at” and dummy data
