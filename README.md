@@ -43,3 +43,9 @@ Used Express.js to build API.
 - Utilized **React.js** to build the frontend.
 - Primarily utilized **Hooks**: useState and useEffect.
 - Employed the **axios** library to fetch data from the backend.
+
+## Deployment services used
+
+ - [render.com](render.com) to deploy the backend
+ - [vercel.com](vercel.com) to deploy the frontend
+
