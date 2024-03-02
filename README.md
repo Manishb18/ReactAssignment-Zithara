@@ -14,6 +14,10 @@ This repository showcases the solution to the assignment given by the company na
 
 ## Project Demo
 
+
+https://github.com/Manishb18/ZitharaAssessment/assets/81469629/d46a6056-ff1f-4c09-981d-96a2a53d4a4a
+
+
 **Database used:** PostgreSQL  
 **Commands Used:** Create, Insert, and Select
 
